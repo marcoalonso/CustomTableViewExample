@@ -13,6 +13,8 @@
 		6C27F87C256758FB00CF4888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C27F87A256758FB00CF4888 /* Main.storyboard */; };
 		6C27F87E256758FD00CF4888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C27F87D256758FD00CF4888 /* Assets.xcassets */; };
 		6C27F881256758FD00CF4888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C27F87F256758FD00CF4888 /* LaunchScreen.storyboard */; };
+		6C27F88B25675BBD00CF4888 /* AlumnoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27F88925675BBD00CF4888 /* AlumnoTableViewCell.swift */; };
+		6C27F88C25675BBD00CF4888 /* AlumnoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C27F88A25675BBD00CF4888 /* AlumnoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6C27F87D256758FD00CF4888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C27F880256758FD00CF4888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C27F882256758FD00CF4888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C27F88925675BBD00CF4888 /* AlumnoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumnoTableViewCell.swift; sourceTree = "<group>"; };
+		6C27F88A25675BBD00CF4888 /* AlumnoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlumnoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				6C27F87D256758FD00CF4888 /* Assets.xcassets */,
 				6C27F87F256758FD00CF4888 /* LaunchScreen.storyboard */,
 				6C27F882256758FD00CF4888 /* Info.plist */,
+				6C27F88925675BBD00CF4888 /* AlumnoTableViewCell.swift */,
+				6C27F88A25675BBD00CF4888 /* AlumnoTableViewCell.xib */,
 			);
 			path = CustomTableViewExample;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				6C27F881256758FD00CF4888 /* LaunchScreen.storyboard in Resources */,
 				6C27F87E256758FD00CF4888 /* Assets.xcassets in Resources */,
 				6C27F87C256758FB00CF4888 /* Main.storyboard in Resources */,
+				6C27F88C25675BBD00CF4888 /* AlumnoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 				6C27F879256758FB00CF4888 /* ViewController.swift in Sources */,
 				6C27F875256758FB00CF4888 /* AppDelegate.swift in Sources */,
 				6C27F877256758FB00CF4888 /* SceneDelegate.swift in Sources */,
+				6C27F88B25675BBD00CF4888 /* AlumnoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

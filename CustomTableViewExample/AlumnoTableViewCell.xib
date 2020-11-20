@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="159" id="KGk-i7-Jjw" customClass="AlumnoTableViewCell" customModule="CustomTableViewExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="425" height="159"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="425" height="159"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nota" translatesAutoresizingMaskIntoConstraints="NO" id="2V5-gn-PiR">
+                        <rect key="frame" x="0.0" y="0.0" width="425" height="159"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGl-nu-jD5">
+                        <rect key="frame" x="52" y="55" width="332" height="85"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="85" id="8CB-PQ-rwh"/>
+                            <constraint firstAttribute="width" constant="332" id="sWV-1r-Dr6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="2V5-gn-PiR" secondAttribute="bottom" id="7sG-Sz-DRV"/>
+                    <constraint firstItem="oGl-nu-jD5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="55" id="Knc-nF-tH1"/>
+                    <constraint firstItem="oGl-nu-jD5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="52" id="X8j-Wz-ywm"/>
+                    <constraint firstAttribute="trailing" secondItem="2V5-gn-PiR" secondAttribute="trailing" id="ajY-NT-BQt"/>
+                    <constraint firstAttribute="trailing" secondItem="oGl-nu-jD5" secondAttribute="trailing" constant="41" id="bvT-vJ-5XL"/>
+                    <constraint firstAttribute="bottom" secondItem="oGl-nu-jD5" secondAttribute="bottom" constant="19" id="iyt-Tw-xs1"/>
+                    <constraint firstItem="2V5-gn-PiR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uer-rK-GbN"/>
+                    <constraint firstItem="2V5-gn-PiR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wxT-dC-dgH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="notaLabel" destination="oGl-nu-jD5" id="oBf-gH-S9A"/>
+            </connections>
+            <point key="canvasLocation" x="-171.73913043478262" y="100.11160714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="nota" width="250" height="250"/>
+    </resources>
+</document>
